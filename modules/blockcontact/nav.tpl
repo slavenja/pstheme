@@ -23,10 +23,15 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 <div id="contact-link" {if isset($is_logged) && $is_logged} class="is_logged"{/if}>
-	<a href="{$link->getPageLink('contact', true)|escape:'html':'UTF-8'}" title="{l s='Contact us' mod='blockcontact'}">{l s='Contact us' mod='blockcontact'}</a>
+		<a href="{$link->getPageLink('contact', true)|escape:'html':'UTF-8'}" title="{l s='Contact us' mod='blockcontact'}" rel="nofollow noopener"><i class="icon-envelope"></i></a>
 </div>
 {if $telnumber}
 	<span class="shop-phone{if isset($is_logged) && $is_logged} is_logged{/if}">
-		<i class="icon-phone"></i>{l s='Call us now:' mod='blockcontact'} <strong>{$telnumber}</strong>
+		<a href="tel:{$telnumber}" rel="nofollow noopener"><i class="icon-phone"></i>{$telnumber}</a>
 	</span>
 {/if}
+<span class="marketing_top">
+<i class="icon-calculator"></i>Низкие цены 
+<i class="icon-truck"></i>Доставка по РФ
+<i class="icon-credit-card"></i>Удобные способы оплаты 
+</span>

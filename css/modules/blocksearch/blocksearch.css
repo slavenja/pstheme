@@ -4,7 +4,7 @@
     float: left;
     width: 100%; }
   #search_block_top .btn.button-search {
-    background: #333;
+    background: #666666;
     display: block;
     position: absolute;
     top: 0;
@@ -24,7 +24,7 @@
       width: 100%;
       text-align: center; }
     #search_block_top .btn.button-search:hover {
-      color: #6f6f6f; }
+      color: #fc3; }
   #search_block_top #search_query_top {
     display: inline;
     padding: 13px 60px 13px 13px;
@@ -62,5 +62,3 @@ form#searchbox {
     float: left; }
     form#searchbox .button.button-small i {
       margin-right: 0; }
-
-/*# sourceMappingURL=blocksearch.css.map */

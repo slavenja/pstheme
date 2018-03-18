@@ -27,11 +27,11 @@
 	<!-- Block CMS module -->
 	{foreach from=$cms_titles key=cms_key item=cms_title}
 		<section id="informations_block_left_{$cms_key}" class="block informations_block_left">
-			<p class="title_block">
+			<!-- <p class="title_block">
 				<a href="{$cms_title.category_link|escape:'html':'UTF-8'}">
 					{if !empty($cms_title.name)}{$cms_title.name}{else}{$cms_title.category_name}{/if}
 				</a>
-			</p>
+			</p> -->
 			<div class="block_content list-block">
 				<ul>
 					{foreach from=$cms_title.categories item=cms_page}
@@ -126,7 +126,8 @@
 	{if $display_poweredby}
 	<section class="bottom-footer col-xs-12">
 		<div>
-			{l s='[1] %3$s %2$s - Ecommerce software by %1$s [/1]' mod='blockcms' sprintf=['PrestaShop™', 'Y'|date, '©'] tags=['<a class="_blank" href="http://www.prestashop.com">'] nocache}
+		&copy; {$shop_name} ™, {$smarty.now|date_format:'%Y'}. Все права защищены.
+		<!--noindex-->Запрещено использование материалов сайта без согласия автора и обратной ссылки. Ст. 146 УК РФ.<!--/noindex-->
 		</div>
 	</section>
 	{/if}

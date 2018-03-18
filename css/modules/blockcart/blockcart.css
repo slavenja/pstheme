@@ -1,5 +1,5 @@
 /*******************************************************************
-					Cart Block Styles
+          Cart Block Styles
 ********************************************************************/
 #header .shopping_cart {
   position: relative;
@@ -11,7 +11,7 @@
     display: inline-block;
     float: right;
     font-size: 18px;
-    color: #686666;
+    color: #fff;
     padding: 6px 0 0 0; }
   #header .shopping_cart > a:first-child:hover:after {
     content: "\f0d8";
@@ -29,10 +29,10 @@
       width: 100%; } }
   .shopping_cart > a:first-child {
     padding: 7px 10px 14px 16px;
-    background: #333;
+    background:#333;
     display: block;
     font-weight: bold;
-    color: #777777;
+    color: #fff;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
     overflow: hidden; }
     @media (min-width: 768px) and (max-width: 991px) {
@@ -48,7 +48,7 @@
       display: inline-block;
       font-size: 23px;
       line-height: 23px;
-      color: #fff;
+      color: #fc3;
       padding-right: 15px; }
   .shopping_cart .ajax_cart_total {
     display: none !important; }
@@ -158,7 +158,7 @@
         color: #fff; }
 
 /*******************************************************************
-					Cart Block(Header) Styles
+          Cart Block(Header) Styles
 ********************************************************************/
 #header .cart_block {
   position: absolute;
@@ -239,7 +239,7 @@
       width: 15px; }
 
 /*****************************************************************************
-					Layer Cart Css
+          Layer Cart Css
 *****************************************************************************/
 .layer_cart_overlay {
   background-color: #000;
@@ -268,8 +268,6 @@
   width: 84%;
   margin-right: 8%;
   margin-left: 8%;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
   border-radius: 4px; }
   #layer_cart .layer_cart_product {
     padding: 30px 30px 30px 30px;
@@ -318,8 +316,6 @@
     background: #fafafa;
     border-left: 1px solid #d6d4d4;
     padding: 21px 30px 170px 30px;
-    -moz-border-radius: 0px 4px 4px 0px;
-    -webkit-border-radius: 0px;
     border-radius: 0px 4px 4px 0px;
     position: relative; }
     @media (min-width: 1200px) {
@@ -330,8 +326,6 @@
         min-height: 360px; } }
     @media (max-width: 991px) {
       #layer_cart .layer_cart_cart {
-        -moz-border-radius: 0px 0 4px 4px;
-        -webkit-border-radius: 0px;
         border-radius: 0px 0 4px 4px;
         border-left: none;
         border-top: 1px solid #d6d4d4; } }
@@ -383,7 +377,7 @@
     padding: 0px; }
 
 /************************************************************************
-						Layer Cart Caroucel
+            Layer Cart Caroucel
 *************************************************************************/
 #layer_cart .crossseling .crossseling-content {
   border-top: 1px solid #d6d4d4;
@@ -449,5 +443,3 @@
       content: "\f138"; }
   #layer_cart .crossseling #blockcart_list .bx-controls {
     overflow: hidden; }
-
-/*# sourceMappingURL=blockcart.css.map */

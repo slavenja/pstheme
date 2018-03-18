@@ -1,62 +1,83 @@
 .shop-phone {
-  float: left;
-  padding: 5px 0 10px;
-  line-height: 18px; }
-  @media (max-width: 767px) {
-    .shop-phone {
-      display: none; } }
-  .shop-phone i {
-    font-size: 21px;
-    line-height: 21px;
-    color: #fff;
-    padding-right: 7px; }
-  .shop-phone strong {
-    color: #fff; }
-  @media (max-width: 991px) {
-    .shop-phone.is_logged {
-      display: none; } }
-
+  float: right;
+  padding: 8px 5px 8px;
+  line-height: 18px;
+}
+.shop-phone i {
+  padding-right: 7px;
+  color: #ffcc33;
+  font-size: 20px;
+}
+.shop-phone a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 20px;
+}
 #contact-link {
   float: right;
-  border-left: 1px solid #515151; }
-  @media (max-width: 479px) {
-    #contact-link {
-      text-align: center; } }
-  #contact-link a {
-    display: block;
-    color: #fff;
-    font-weight: bold;
-    padding: 8px 10px 11px 10px;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    line-height: 18px; }
-    @media (max-width: 479px) {
-      #contact-link a {
-        font-size: 11px;
-        padding-left: 5px;
-        padding-right: 5px; } }
-    #contact-link a:hover, #contact-link a.active {
-      background: #2b2b2b; }
-  @media (max-width: 767px) {
-    #contact-link.is_logged {
-      display: none; } }
-
-@media (max-width: 767px) {
+  border-left: 1px solid #515151;
+}
+#contact-link a {
+  display: block;
+  padding: 8px 10px 11px 10px;
+  color: #fff;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  line-height: 18px;
+  cursor: pointer;
+}
+#contact-link a:hover, #contact-link a.active {
+  background: #2b2b2b;
+}
+@media (max-width:767px) {
+  #contact-link.is_logged {
+    display: none;
+  }
+}
+@media (max-width:767px) {
   #contact_block {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px;
+  }
+}
 #contact_block .label {
-  display: none; }
+  display: none;
+}
 #contact_block .block_content {
-  color: #888888; }
+  color: #888888;
+}
 #contact_block p {
-  margin-bottom: 4px; }
+  margin-bottom: 4px;
+}
 #contact_block p.tel {
-  font: 400 17px/21px Arial, Helvetica, sans-serif;
+  margin-bottom: 6px;
   color: #333;
-  margin-bottom: 6px; }
-  #contact_block p.tel i {
-    font-size: 25px;
-    vertical-align: -2px;
-    padding-right: 10px; }
-
-/*# sourceMappingURL=blockcontact.css.map */
+  font: 400 17px/21px Arial, Helvetica, sans-serif;
+}
+#contact_block p.tel i {
+  padding-right: 10px;
+  vertical-align: -2px;
+  font-size: 25px;
+}
+.marketing_top {
+  float: left;
+  padding-top: 4px;
+  padding-right: 7px;
+  color: #ccc;
+  font-size: 12px;
+}
+.marketing_top i {
+  margin-left: 5px;
+    margin-right: 5px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: #ccc;
+  color: #333;
+  font-size: 16px;
+}
+@media (max-width:767px) {
+  .marketing_top {
+    display: none;
+  }
+}
